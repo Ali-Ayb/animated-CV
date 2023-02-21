@@ -43,3 +43,14 @@
   align-items: center;
   vertical-align: top;
 }
+
+.section-one {
+  display: flex;
+  justify-content: space-evenly;
+}
+.title1 {
+}
+
+.parag1 {
+  width: 70%;
+}
