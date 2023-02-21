@@ -1,7 +1,10 @@
-/* body {
+body {
   -webkit-animation: name 2s infinite;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+audio {
+  display: none;
+}
 @-webkit-keyframes name {
   0% {
     background-color: black;
@@ -21,13 +24,17 @@
   100% {
     background-color: purple;
   }
-} */
+}
 
 .human-img {
   border-radius: 60px;
   width: 140px;
   height: 140px;
   display: inline-block;
+  transition: all 1.3s ease-in-out;
+}
+.human-img:hover {
+  transform: rotate(900deg) scale(3);
 }
 
 .human-name {
@@ -44,13 +51,40 @@
   vertical-align: top;
 }
 
-.section-one {
+.section-one,
+.section-two,
+.section-four {
   display: flex;
   justify-content: space-evenly;
 }
-.title1 {
+.section-three {
+  display: flex;
+  justify-content: space-around;
+}
+.title1,
+.title2,
+.title3,
+.title4,
+.title5 {
+  color: yellow;
 }
 
-.parag1 {
+.title4 {
+  margin-right: 18%;
+}
+
+.parag1,
+.parag2,
+.parag3,
+.parag5 {
   width: 70%;
+}
+
+.parag4 {
+  width: 3%;
+}
+
+hr {
+  height: 3px;
+  background-color: white;
 }
