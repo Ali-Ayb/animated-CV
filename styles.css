@@ -1,0 +1,45 @@
+/* body {
+  -webkit-animation: name 2s infinite;
+}
+
+@-webkit-keyframes name {
+  0% {
+    background-color: black;
+  }
+  20% {
+    background-color: green;
+  }
+  40% {
+    background-color: red;
+  }
+  60% {
+    background-color: yellow;
+  }
+  80% {
+    background-color: blue;
+  }
+  100% {
+    background-color: purple;
+  }
+} */
+
+.human-img {
+  border-radius: 60px;
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+}
+
+.human-name {
+  display: inline-block;
+}
+
+.work-title {
+  display: block;
+}
+
+.group {
+  display: inline-block;
+  align-items: center;
+  vertical-align: top;
+}
